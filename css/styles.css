@@ -29,8 +29,7 @@ a {
   margin: 0 auto;
 }
 
-/* header */
-
+/* --------header------- */
 .page-header {
   border-bottom: 1px solid #e7e9fc;
 }
@@ -106,12 +105,12 @@ a {
 .contacts-link:focus {
   color: #404bbf;
 }
+/* --------header------- */
 
-/* header */
-
-/* section hero */
-
+/*--------section hero-------- */
 .hero {
+  padding-top: 188px;
+  padding-bottom: 188px;
   background-color: #2e2f42;
 }
 
@@ -122,6 +121,9 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  max-width: 496px;
+  margin: 0 auto;
+  margin-bottom: 48px;
 }
 
 .hero-btn {
@@ -131,6 +133,8 @@ a {
   letter-spacing: 0.04em;
   color: #fff;
   background: #4d5ae5;
+  display: block;
+  margin: 0 auto;
 }
 
 .hero-btn:hover,
@@ -138,13 +142,25 @@ a {
   background-color: #404bbf;
   cursor: pointer;
 }
+/*--------section hero-------- */
 
+/*--------section advantages-------- */
+.advantages-list {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+.advantages {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
 .advantages-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .advantages-text {
@@ -153,8 +169,12 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+/*--------section advantages-------- */
 
+/*--------section team-------- */
 .team {
+  padding-top: 120px;
+  padding-bottom: 120px;
   background-color: #f4f4fd;
 }
 
@@ -166,6 +186,8 @@ a {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  margin: 0 auto;
+  margin-bottom: 72px;
 }
 
 .team-items {
@@ -179,6 +201,7 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .team-position {
@@ -189,6 +212,13 @@ a {
   text-align: center;
 }
 
+/*--------section team-------- */
+
+/*--------section portfolio-------- */
+.portfolio {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
 .portfolio-title {
   font-size: 36px;
   line-height: 1.11;
@@ -196,6 +226,8 @@ a {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  margin: 0 auto;
+  margin-bottom: 72px;
 }
 
 .portfolio-subject {
@@ -204,6 +236,7 @@ a {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .portfolio-text {
@@ -212,8 +245,16 @@ a {
   letter-spacing: 0.02em;
 }
 
+/*--------section portfolio-------- */
+
 .page-footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
   background-color: #2e2f42;
+}
+
+.logo-part {
+  color: #f4f4fd;
 }
 
 .page-footer-text {
@@ -221,4 +262,5 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
 }
