@@ -32,6 +32,7 @@ img {
 }
 
 /* --------header------- */
+
 .page-header {
   border-bottom: 1px solid #e7e9fc;
 }
@@ -107,9 +108,11 @@ img {
 .contacts-link:focus {
   color: #404bbf;
 }
+
 /* --------header------- */
 
 /*--------section hero-------- */
+
 .hero {
   padding-top: 188px;
   padding-bottom: 188px;
@@ -127,6 +130,7 @@ img {
   margin: 0 auto;
   margin-bottom: 48px;
 }
+
 .hero-btn {
   font-weight: 500;
   font-size: 16px;
@@ -148,6 +152,7 @@ img {
   background-color: #404bbf;
   cursor: pointer;
 }
+
 /*--------section hero-------- */
 
 /*--------section advantages-------- */
@@ -173,12 +178,12 @@ img {
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
-  overflow: hidden;
 }
 
 .advantages-items {
   width: calc((100% - 24px * 3) / 4);
 }
+
 .advantages-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -194,9 +199,11 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
 /*--------section advantages-------- */
 
 /*--------section team-------- */
+
 .team {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -239,22 +246,19 @@ img {
   color: #2e2f42;
   margin-bottom: 8px;
 }
+
 .team-position {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
-  margin-bottom: 32px;
-}
-
-.team-image {
-  margin-bottom: 32px;
 }
 
 /*--------section team-------- */
 
 /*--------section portfolio-------- */
+
 .portfolio {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -287,6 +291,7 @@ img {
   border-top: none;
   padding: 32px 16px;
 }
+
 .portfolio-subject {
   font-weight: 500;
   font-size: 20px;
